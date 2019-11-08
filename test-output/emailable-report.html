@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">suite name</th></tr>
+<tr><td><a href="#t0">HomePage</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,409</td><td></td><td></td></tr>
+<tr><th colspan="7">suite name (0)</th></tr>
+<tr class="stripe"><td><a href="#t1">HomePage</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">21,213</td><td></td><td></td></tr>
+<tr><th colspan="7">TOOLSQAWEBPAGES</th></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num">45,622</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">suite name</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HomePage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.atmecs.tutorialninja.testscripts.HomePage</td><td><a href="#m0">home</a></td><td rowspan="1">1573225128866</td><td rowspan="1">19626</td></tr></tbody>
+<tbody><tr><th colspan="4">suite name (0)</th></tr></tbody><tbody id="t1"><tr><th colspan="4">HomePage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.atmecs.tutorialninja.testscripts.HeatClinic</td><td><a href="#m1">heatclinic</a></td><td rowspan="3">1573225169481</td><td rowspan="3">266</td></tr><tr class="failedeven"><td><a href="#m2">heatclinic</a></td></tr><tr class="failedeven"><td><a href="#m3">heatclinic</a></td></tr><tr><th colspan="4">HomePage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.atmecs.tutorialninja.testscripts.HeatClinic</td><td><a href="#m4">heatclinic</a></td><td rowspan="1">1573225150928</td><td rowspan="1">18116</td></tr></tbody>
+<tbody><tr><th colspan="4">TOOLSQAWEBPAGES</th></tr></tbody></table>
+<h2>HomePage</h2><h3 id="m0">com.atmecs.tutorialninja.testscripts.HomePage#home</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[iPhone, 2.0, MacBook Air, 3.0, The Ninja Store, Search, iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a name o.., $123.20 Ex Tax: $101.00, MacBook Air, MacBook Air is ultrathin, ultraportable, and ultra unlike anything else. But you don\u2019t lose in.., $1,202.00 Ex Tax: $1,000.00, 3852.4, 246.4]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [3852.4] but found [$3,852.40]
+	at com.atmecs.tutorialsninja.validation.HomePageValidation.updatedtotalValidation(HomePageValidation.java:113)
+	at com.atmecs.tutorialninja.testscripts.HomePage.home(HomePage.java:76)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>HomePage</h2><h3 id="m1">com.atmecs.tutorialninja.testscripts.HeatClinic#heatclinic</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[null, null, null, null, null, null, null, null, null, null, null, null]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element not clickable at point (536,144). Other element would receive the click: &lt;td&gt;
+                
+                    
+                    &lt;img width=&quot;60&quot; alt=&quot;Hawt Like a Habanero Shirt (Men&apos;s)&quot; src=&quot;/cmsstatic/img/merch/habanero_mens_red.jpg?thumbnail&quot;&gt;
+                    
+                
+                
+                    
+                    
+                    
+                
+                
+            &lt;/td&gt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINDT-006&apos;, ip: &apos;50.50.50.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: , nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8a577d8d-29eb-414e-af29-d0465086bf97
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.tutorialninja.Testsuite.Pageactions.clickOnElement(Pageactions.java:62)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:45)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.atmecs.tutorialninja.testscripts.HeatClinic#heatclinic</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[, null, null, null, null, null, null, null, null, null, null, null]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: Modal dialog present with text: An error occurred while processing your request.: An error occurred while processing your request.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINDT-006&apos;, ip: &apos;50.50.50.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: , nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8a577d8d-29eb-414e-af29-d0465086bf97
+*** Element info: {Using=xpath, value=//span[text()=&apos;Home&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.atmecs.tutorialninja.Testsuite.Pageactions.selectLocators(Pageactions.java:49)
+	at com.atmecs.tutorialninja.Testsuite.Pageactions.clickOnElement(Pageactions.java:61)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:45)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.atmecs.tutorialninja.testscripts.HeatClinic#heatclinic</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[null, null, null, null, null, null, null, null, null, null, null, null]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element not clickable at point (536,144). Other element would receive the click: &lt;td&gt;
+                
+                    
+                    &lt;img width=&quot;60&quot; alt=&quot;Hawt Like a Habanero Shirt (Men&apos;s)&quot; src=&quot;/cmsstatic/img/merch/habanero_mens_red.jpg?thumbnail&quot;&gt;
+                    
+                
+                
+                    
+                    
+                    
+                
+                
+            &lt;/td&gt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINDT-006&apos;, ip: &apos;50.50.50.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: , nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8a577d8d-29eb-414e-af29-d0465086bf97
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.tutorialninja.Testsuite.Pageactions.clickOnElement(Pageactions.java:62)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:45)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.atmecs.tutorialninja.testscripts.HeatClinic#heatclinic</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Hoppin&apos; Hot Sauce, Day of the Dead Chipotle Hot Sauce, Hawt Like a Habanero Shirt (Men&apos;s), Green Ghost, This is an example of a content-managed page., This is an example of a content-managed page., Viewing, Shirt, Hawt Like a Habanero Shirt (Men&apos;s)
+Shirt Size: M
+Personalized Name: Shirt
+Shirt Color: Red, 14.99, 14.99, 5.0]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
